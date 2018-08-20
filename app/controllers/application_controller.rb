@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::Base
 
-  #Vishnu COmputer 
+  #dummy_Vish COmputer 
 end
