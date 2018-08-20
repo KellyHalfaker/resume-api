@@ -9,8 +9,8 @@ class CreateStudents < ActiveRecord::Migration[5.2]
       t.string :linkedin_url
       t.string :twitter_handle
       t.string :personal_blog
-      t.string :online-resume-url
-      t.string :github-url
+      t.string :online_resume_url
+      t.string :github_url
       t.string :photo
 
       t.timestamps
