@@ -29,3 +29,10 @@ skill3 = Skill.new({Name: "Turning technology off and back on again to fix it"})
 skill3.save
 
 
+education1 = Education.new({start_date: Date.now - 300.days, end_date: Date.now - 100.days, degree: "Bachelors in Partying", University_name: "Harvard", details: "I was hecka good at partying"})
+education1.save
+education2 = Education.new({start_date: Date.now - 500.days, end_date: Date.now - 200.days, degree: "Bachelors in Napping", University_name: "Duke", details: "
+  Sleep is important"})
+education2.save
+education3 = Education.new({start_date: Date.now - 900.days, end_date: Date.now - 300.days, degree: "Bachelors in Napping", University_name: "MIT", details: "I need 10 hours a night at least"})
+education3.save
