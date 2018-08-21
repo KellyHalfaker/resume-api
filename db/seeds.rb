@@ -20,3 +20,12 @@ experience2 = Experience.new({start_date: Date.now - 15.days, end_date: Date.now
 experience2.save
 experience3 = Experience.new({start_date: Date.now - 20.days, end_date: Date.now - 1.days, job_title: "Wow", company_name: "Great", details: "Excellent"})
 experience3.save
+
+skill1 = Skill.new({Name: "Metalworking"})
+skill1.save
+skill2 = Skill.new({Name: "Sleep marathoning"})
+skill2.save
+skill3 = Skill.new({Name: "Turning technology off and back on again to fix it"})
+skill3.save
+
+
