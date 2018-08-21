@@ -14,3 +14,9 @@ student2.save
 student3 =  Student.new({first_name: "Tim", last_name: "Long", email: "tim@email.com", phone_number: "333-333-3333", short_bio: "My name is tim and I would like a job.", linkedin_url: "tim@linkedin.com", twitter_handle: "@tim", personal_blog: "medium.com/tim", online_resume_url: "resume.com/tim", github_url: "github.com/tim", photo: "photo.com/tim"})
 student3.save
 
+experience1 = Experience.new({start_date: Date.now - 10.days, end_date: Date.now - 2.days, job_title: "Very important dude", company_name: "Important People Inc.", details: "I was a very important dude"})
+experience1.save
+experience2 = Experience.new({start_date: Date.now - 15.days, end_date: Date.now - 1.days, job_title: "Cool gal", company_name: "Yoyoyoyoyo", details: "Very chill"})
+experience2.save
+experience3 = Experience.new({start_date: Date.now - 20.days, end_date: Date.now - 1.days, job_title: "Wow", company_name: "Great", details: "Excellent"})
+experience3.save
