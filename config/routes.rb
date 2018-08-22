@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get "/students" => "students#index"
 
-  get "/students" => "students#show"
+  get "/students/:id" => "students#show"
 
   post "/students" => "students#create"
 
