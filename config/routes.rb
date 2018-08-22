@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   patch "/students/:id" => "students#update"
 
   delete "/students/:id" => "students#destroy"
+
+  get "/currentuser" => "users#show_current_user"
 end
